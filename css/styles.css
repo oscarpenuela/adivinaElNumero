@@ -1,3 +1,7 @@
+:root{
+    --var-color-fondo:  rgb(50, 146, 146);
+}
+
 html{
     background-color: rgb(163, 42, 64);    
     display: flex;    
@@ -14,7 +18,7 @@ body{
 }
 
 .game{
-    background-color: rgb(50, 146, 146);
+    background-color: var(--var-color-fondo);
     border: solid;
     border-radius: 20px;
     box-shadow: 6px 6px 8px rgba(24, 109, 109, 0.5);   
