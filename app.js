@@ -15,7 +15,7 @@ window.addEventListener("load", function(){
             resultado.textContent = '';
             pista.textContent = '';
             numero.value = '';
-            pista.style.backgroundColor = 'white';
+            pista.style.backgroundColor = 'var(--var-color-fondo)';
             document.querySelector('.game').removeChild(reiniciarBoton);
             numeroAleatorio = Math.floor(Math.random()*100)+1;
             numero.focus();
